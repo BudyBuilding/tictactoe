@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+}
+
+.box {
+}
+
+.row {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.content-box {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 9rem;
+  border: thin solid black;
+  opacity: 1;
+
+  cursor: pointer;
+}
+
+.message-box {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.reset-button {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  background-color: antiquewhite;
+  width: 50%;
+  color: #555;
+  border-radius: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.disable-interaction {
+  pointer-events: none; /* Disable pointer events, blocking interaction */
+  /* opacity: 0.5; Optionally, reduce opacity to visually indicate disabled state */
+}
